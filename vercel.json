@@ -2,21 +2,21 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "server-enhanced.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/server.js"
+      "dest": "/server-enhanced.js"
     }
   ],
   "env": {
     "NODE_ENV": "production"
   },
   "functions": {
-    "server.js": {
+    "server-enhanced.js": {
       "maxDuration": 30
     }
   }

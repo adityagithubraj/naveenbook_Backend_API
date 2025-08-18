@@ -1,6 +1,14 @@
-# My Accounts Lite Backend API
+# Naveenbook Backend API
 
-A Node.js and Express backend API for managing customer accounts and transactions with an in-memory JSON database.
+A Node.js and Express backend API for managing customer accounts and transactions with an in-memory JSON database. Ready for deployment on Vercel with Git integration.
+
+## 🚀 Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/naveenbook-backend)
+
+**For detailed deployment instructions, see:**
+- [Quick Deploy Guide](QUICK_DEPLOY.md)
+- [Full Deployment Guide](DEPLOYMENT.md)
 
 ## Features
 
@@ -14,9 +22,10 @@ A Node.js and Express backend API for managing customer accounts and transaction
 
 ## Installation
 
-1. Navigate to the backend directory:
+1. Clone the repository:
 ```bash
-cd backend
+git clone <your-repository-url>
+cd naveenbook_Backend_API
 ```
 
 2. Install dependencies:
@@ -31,9 +40,29 @@ npm run dev
 
 # Production mode
 npm start
+
+# Basic server mode
+npm run start:basic
 ```
 
 The server will start on port 3001 by default. You can change this by setting the `PORT` environment variable.
+
+## 🚀 Deployment
+
+### Quick Deploy to Vercel
+```bash
+# Run the automated deployment script
+./deploy.sh          # Linux/Mac
+deploy.bat           # Windows
+```
+
+### Manual Deployment
+1. Push your code to Git repository
+2. Connect to Vercel dashboard
+3. Import your repository
+4. Deploy with Node.js framework preset
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
 
 ## API Endpoints
 
