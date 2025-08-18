@@ -1,0 +1,33 @@
+{
+  "name": "naveenbook-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Naveenbook - Personal Account Manager",
+  "main": "server-enhanced.js",
+  "scripts": {
+    "start": "node server-enhanced.js",
+    "start:basic": "node server.js",
+    "dev": "nodemon server-enhanced.js",
+    "dev:basic": "nodemon server.js",
+    "test": "node test-api.js",
+    "backup": "curl -o backup.json http://localhost:3001/api/backup",
+    "health": "curl http://localhost:3001/api/health"
+  },
+  "keywords": ["accounts", "finance", "api", "express", "nodejs", "naveenbook"],
+  "author": "Naveenbook Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

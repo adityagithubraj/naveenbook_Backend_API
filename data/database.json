@@ -1,0 +1,161 @@
+{
+  "customers": [
+    {
+      "id": "86fe91b2-481d-4214-ab8a-d390646f59a9",
+      "name": "Aditya raj",
+      "phone": "06295750823",
+      "email": "adityaraj629575@gmail.com",
+      "address": "dubha",
+      "createdAt": "2025-08-18T07:20:14.345Z",
+      "updatedAt": "2025-08-18T07:20:14.345Z"
+    },
+    {
+      "id": "74152719-cabe-4d1d-aedf-ce329927d999",
+      "name": "AMAN ",
+      "phone": "6295959585",
+      "email": "",
+      "address": "",
+      "createdAt": "2025-08-18T07:24:40.103Z",
+      "updatedAt": "2025-08-18T07:24:40.103Z"
+    },
+    {
+      "id": "df2ae19f-c294-4544-95a0-65a920e8db04",
+      "name": "AMANTEST",
+      "phone": "72727227272",
+      "email": "",
+      "address": "",
+      "createdAt": "2025-08-18T07:26:40.003Z",
+      "updatedAt": "2025-08-18T07:26:40.003Z"
+    },
+    {
+      "id": "bfecebdd-4163-4509-b937-3ffab59c70e8",
+      "name": "kajal",
+      "phone": "7374747474",
+      "email": "",
+      "address": "",
+      "createdAt": "2025-08-18T07:41:13.671Z",
+      "updatedAt": "2025-08-18T07:41:13.671Z"
+    },
+    {
+      "id": "384a39dc-0a15-40f1-b7c3-70b75fade7e3",
+      "name": "Aditya Raj",
+      "phone": "06295750823",
+      "email": "adityaraj9843@gmail.com",
+      "address": "Delhi ,india",
+      "createdAt": "2025-08-18T07:47:11.788Z",
+      "updatedAt": "2025-08-18T07:47:11.788Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "25c80daf-64ed-409b-b782-bba662187444",
+      "customerId": "bfecebdd-4163-4509-b937-3ffab59c70e8",
+      "type": "debit",
+      "amount": 55,
+      "description": "Debit",
+      "date": "2025-08-18T07:44:16.114Z",
+      "createdAt": "2025-08-18T07:44:16.128Z",
+      "updatedAt": "2025-08-18T07:44:16.129Z"
+    },
+    {
+      "id": "b81ffd6a-af6d-4138-a2ff-2161587066a2",
+      "customerId": "bfecebdd-4163-4509-b937-3ffab59c70e8",
+      "type": "credit",
+      "amount": 1000,
+      "description": "Credit",
+      "date": "2025-08-18T07:44:01.334Z",
+      "createdAt": "2025-08-18T07:44:01.340Z",
+      "updatedAt": "2025-08-18T07:44:01.340Z"
+    },
+    {
+      "id": "ee941fa9-79e6-450a-b1bb-10ff1000546b",
+      "customerId": "bfecebdd-4163-4509-b937-3ffab59c70e8",
+      "type": "credit",
+      "amount": 1000,
+      "description": "Credit",
+      "date": "2025-08-18T07:44:00.480Z",
+      "createdAt": "2025-08-18T07:44:01.165Z",
+      "updatedAt": "2025-08-18T07:44:01.165Z"
+    },
+    {
+      "id": "b2504e4b-97d2-48a5-9e9a-0d5c84341de0",
+      "customerId": "bfecebdd-4163-4509-b937-3ffab59c70e8",
+      "type": "credit",
+      "amount": 1000,
+      "description": "Credit",
+      "date": "2025-08-18T07:43:55.411Z",
+      "createdAt": "2025-08-18T07:44:01.147Z",
+      "updatedAt": "2025-08-18T07:44:01.147Z"
+    },
+    {
+      "id": "41fcc0f8-a47a-4f66-82af-7af25c744904",
+      "customerId": "df2ae19f-c294-4544-95a0-65a920e8db04",
+      "type": "credit",
+      "amount": 12223,
+      "description": "Credit",
+      "date": "2025-08-18T07:26:50.597Z",
+      "createdAt": "2025-08-18T07:26:50.616Z",
+      "updatedAt": "2025-08-18T07:26:50.616Z"
+    },
+    {
+      "id": "4abc3eee-1959-4edf-acc1-f4eaa21b0add",
+      "customerId": "74152719-cabe-4d1d-aedf-ce329927d999",
+      "type": "debit",
+      "amount": 3444,
+      "description": "Debit",
+      "date": "2025-08-18T07:24:53.503Z",
+      "createdAt": "2025-08-18T07:24:53.508Z",
+      "updatedAt": "2025-08-18T07:24:53.508Z"
+    },
+    {
+      "id": "ee40a2f9-b6aa-474a-9462-6cea421b6d0e",
+      "customerId": "74152719-cabe-4d1d-aedf-ce329927d999",
+      "type": "credit",
+      "amount": 1222,
+      "description": "Credit",
+      "date": "2025-08-18T07:24:48.112Z",
+      "createdAt": "2025-08-18T07:24:48.122Z",
+      "updatedAt": "2025-08-18T07:24:48.122Z"
+    },
+    {
+      "id": "f2fb9425-28da-4a1a-9543-05a110e526e3",
+      "customerId": "86fe91b2-481d-4214-ab8a-d390646f59a9",
+      "type": "credit",
+      "amount": 67899,
+      "description": "Credit",
+      "date": "2025-08-18T07:20:59.396Z",
+      "createdAt": "2025-08-18T07:20:59.422Z",
+      "updatedAt": "2025-08-18T07:20:59.422Z"
+    },
+    {
+      "id": "13156098-5a7d-47c0-b851-a0d05e81e30f",
+      "customerId": "86fe91b2-481d-4214-ab8a-d390646f59a9",
+      "type": "debit",
+      "amount": 43443,
+      "description": "Debit",
+      "date": "2025-08-18T07:20:52.093Z",
+      "createdAt": "2025-08-18T07:20:52.106Z",
+      "updatedAt": "2025-08-18T07:20:52.106Z"
+    },
+    {
+      "id": "1dd8bb64-ea7f-4812-b8c0-5384e07f8bac",
+      "customerId": "86fe91b2-481d-4214-ab8a-d390646f59a9",
+      "type": "credit",
+      "amount": 243243,
+      "description": "Credit",
+      "date": "2025-08-18T07:20:42.439Z",
+      "createdAt": "2025-08-18T07:20:42.460Z",
+      "updatedAt": "2025-08-18T07:20:42.460Z"
+    },
+    {
+      "id": "5df4a2d9-4274-4b39-aa7f-648d5c3ed203",
+      "customerId": "bfecebdd-4163-4509-b937-3ffab59c70e8",
+      "type": "debit",
+      "amount": 676,
+      "description": "Debit",
+      "date": "2025-08-18T10:15:28.577Z"
+    }
+  ],
+  "lastUpdated": "2025-08-18T10:15:28.837Z",
+  "version": "1.0.0"
+}
